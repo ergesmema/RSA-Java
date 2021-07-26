@@ -19,7 +19,7 @@ Older versions might also work.
 
 An intuitive terminal program is available for testing the implementation by running the main() method of RSA.
 
-###Sample Output
+### Sample Output
 ```
 ----Public Keys are made available----
 Bob says: Hello world, my public key is N=506843262446850739 and e=65537 

@@ -151,7 +151,7 @@ public class RSA {
         System.out.println(listString);
         System.out.println("Alice reads (decoded text): " + messageDecrypted);
 
-        System.out.println("----Charlie started breaking RSA----");
+        System.out.println("\n----Charlie started breaking RSA----");
         long startTime = System.currentTimeMillis();
         BigInteger BobDecKey = Charlie.breakRSA(Bob.e, Bob.N);
         long endTime = System.currentTimeMillis();
