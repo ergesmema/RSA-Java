@@ -21,7 +21,7 @@ An intuitive terminal program is available for testing the implementation by run
 
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info:
 
 Erges Mema  
 [@MemaErges](https://twitter.com/memaerges)
@@ -34,4 +34,5 @@ Erges Mema
 ## Acknowledgments
 
 Pseudocode references from:
+
 Dasgupta, S., Papadimitriou, C. H., & Vazirani, U. V. (2006). Algorithms. Boston: McGraw-Hill Higher Education.
