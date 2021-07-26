@@ -19,6 +19,40 @@ Older versions might also work.
 
 An intuitive terminal program is available for testing the implementation by running the main() method of RSA.
 
+###Sample Output
+```
+----Public Keys are made available----
+Bob says: Hello world, my public key is N=506843262446850739 and e=65537 
+Alice says: Hello world, my public key is N=12647022965299532473 and e=65537
+
+----Message from Alice to Bob----
+What should Alice say:
+Hello Bob!
+Alice says: Hello Bob!
+Charlie reads (encoded text):
+u��+>Q�a��;{v
+Bob reads (decoded text): Hello Bob!
+
+
+----Message from Bob to Alice----
+What should Bob say:
+Hello Alice
+Bob says: Hello Alice
+Charlie reads (encoded text):
+u��+>Q�a��;{vbD�Sd�V� ����5�)
+Alice reads (decoded text): Hello Alice 
+
+----Charlie started breaking RSA---- 
+Time to find Bob's Decryption key: 29 sec 
+Charlie found decryption key of Bob: 112687690016002265 
+Charlie decrypted message send to Bob: Hello Bob! 
+Time to find Alice's Decryption key: 26 sec 
+Charlie found decryption key of Alice: 12063658592921248169 
+Charlie decrypted message send to Alice: Hello Alice
+```
+
+
+
 ## Authors
 
 Contributors names and contact info:
@@ -36,3 +70,4 @@ Erges Mema
 Pseudocode references from:
 
 Dasgupta, S., Papadimitriou, C. H., & Vazirani, U. V. (2006). Algorithms. Boston: McGraw-Hill Higher Education.
+
