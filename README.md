@@ -7,6 +7,7 @@ This repository provides the implementation in java, as well as an analysis of a
 ## Description
 
 The program starts by generating two random prime numbers of 32 bits. (Note: The classic variables (p, q, e, etc.) are used in order to provide quick reference and better understanding for the reader.) After p and q are generated, they are multiplied in order to achieve 𝑁𝑁, which is part of both the public and private key pair. After that, we calculate ∅(𝑁) which is used in the calculations of both the variables e and d, that are used in public and private key pairs respectively. e is a number relatively prime to ∅(𝑁), while d is found as the modular multiplicative inverse of the pair (𝑒,∅(N)).
+Find time complexity analysis [here](https://drive.google.com/file/d/1TcCV-OBiV1nMpx4QR1PE9Ej4dgt3rZXQ/view?usp=sharing).
 
 ## Getting Started
 
